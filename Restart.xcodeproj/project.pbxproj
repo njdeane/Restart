@@ -13,6 +13,8 @@
 		A66626482750C64B005FB9E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66626472750C64B005FB9E8 /* Preview Assets.xcassets */; };
 		A66626502750C82F005FB9E8 /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A666264E2750C82F005FB9E8 /* success.m4a */; };
 		A66626512750C82F005FB9E8 /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A666264F2750C82F005FB9E8 /* chimeup.mp3 */; };
+		A66626582750CBB3005FB9E8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66626572750CBB3005FB9E8 /* OnboardingView.swift */; };
+		A666265A2750CBC1005FB9E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66626592750CBC1005FB9E8 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A666264E2750C82F005FB9E8 /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		A666264F2750C82F005FB9E8 /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		A66626562750CB59005FB9E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A66626572750CBB3005FB9E8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A66626592750CBC1005FB9E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				A66626422750C64A005FB9E8 /* ContentView.swift */,
+				A66626572750CBB3005FB9E8 /* OnboardingView.swift */,
+				A66626592750CBC1005FB9E8 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66626582750CBB3005FB9E8 /* OnboardingView.swift in Sources */,
+				A666265A2750CBC1005FB9E8 /* HomeView.swift in Sources */,
 				A66626432750C64A005FB9E8 /* ContentView.swift in Sources */,
 				A66626412750C64A005FB9E8 /* RestartApp.swift in Sources */,
 			);

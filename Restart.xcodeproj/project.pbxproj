@@ -16,6 +16,7 @@
 		A66626582750CBB3005FB9E8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66626572750CBB3005FB9E8 /* OnboardingView.swift */; };
 		A666265A2750CBC1005FB9E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66626592750CBC1005FB9E8 /* HomeView.swift */; };
 		A666265C2750F00C005FB9E8 /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666265B2750F00C005FB9E8 /* CircleGroupView.swift */; };
+		A6B1D04F275F58CE009FCA7E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B1D04E275F58CE009FCA7E /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A66626572750CBB3005FB9E8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		A66626592750CBC1005FB9E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A666265B2750F00C005FB9E8 /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		A6B1D04E275F58CE009FCA7E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,8 @@
 				A66626532750C981005FB9E8 /* Screens */,
 				A66626542750C98E005FB9E8 /* Views */,
 				A66626442750C64B005FB9E8 /* Assets.xcassets */,
-				A66626552750C9A4005FB9E8 /* Utilities */,
 				A66626522750C834005FB9E8 /* Sounds */,
+				A66626552750C9A4005FB9E8 /* Utilities */,
 				A66626462750C64B005FB9E8 /* Preview Content */,
 			);
 			path = Restart;
@@ -112,6 +114,7 @@
 		A66626552750C9A4005FB9E8 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				A6B1D04E275F58CE009FCA7E /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				A666265A2750CBC1005FB9E8 /* HomeView.swift in Sources */,
 				A66626432750C64A005FB9E8 /* ContentView.swift in Sources */,
 				A66626412750C64A005FB9E8 /* RestartApp.swift in Sources */,
+				A6B1D04F275F58CE009FCA7E /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
